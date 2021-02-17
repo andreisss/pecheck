@@ -52,8 +52,8 @@ Windows os, structure used by microsoft to rapresents an executable file or libs
  
  ![alt text]( https://i.ibb.co/7SN6B4v/data-dir.jpg)
 
- - Import tabe
- - Export table
- - Resource table
- - Relocation table
- - TLS table
+ - Import table  This rapresents the code functions or api that the program doesn't include but want to import from others executable files or libs or DLLs.
+ - Export table  This rapresents the code functions or api that the program includes in its code,as others app can use it rather than writes from scratch.
+ - Resource table The packages files with the program such as icons, imgs and more. Sometimes malware hide dll or exe to load in memory. 
+ - Relocation table It's used to fix addresses in the code when the PE file is loaded to another place in memory.
+ - TLS table could be used to bypass debugger. 
