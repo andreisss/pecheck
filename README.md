@@ -9,7 +9,8 @@ It represents a quite complete design for any exe file.
 - support dynamic linking support relocation
 - portable multiple processors
 
-+ Exploring PE structure
+
+----- Exploring PE structure------
 
 Windows os, structure used by microsoft to rapresents an executable file or libs in win os.
 
