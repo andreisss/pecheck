@@ -1,4 +1,4 @@
-# pecheck
+# EXPLORING PE STRUCTURE 
 
 Why PE?
 It represents a quite complete design for any exe file.
