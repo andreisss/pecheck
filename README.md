@@ -26,3 +26,15 @@ Windows os, structure used by microsoft to rapresents an executable file or libs
 ![alt text](https://bufferoverflows.net/wp-content/uploads/2019/08/Selection_168-1024x397.jpg)
 
 
++ File header
+
+ ![alt text](https://ibb.co/2W7BcL0)
+
+ - Machine rapresents the processor type ex. 0x14c is Intel 386 or later.
+ - Numberofsections the number of sections that follow the header
+ - TimeDateStamp the exact time and date where the tool was compiled
+ - Characteristics rapresents the exact type of file, program or dll or maybe sys driver.
+ 
+
+ 
+ 
