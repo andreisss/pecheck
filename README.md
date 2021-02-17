@@ -16,6 +16,7 @@ Windows os, structure used by microsoft to rapresents an executable file or libs
 + MZ header
 
 ![alt text](https://qhf0l1i8l8u25b2354fr8h39-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Picture1-480x165.jpg)
+
  The dos header starts with MZ and end with e_lfanew which points to the start of portable executable header. or PE header.
 
 
