@@ -28,7 +28,7 @@ Windows os, structure used by microsoft to rapresents an executable file or libs
 
 + File header
 
- ![alt text](https://ibb.co/2W7BcL0)
+ ![alt text](https://i.ibb.co/sbvrsDp/123.jpg)
 
  - Machine rapresents the processor type ex. 0x14c is Intel 386 or later.
  - Numberofsections the number of sections that follow the header
