@@ -47,4 +47,9 @@ Windows os, structure used by microsoft to rapresents an executable file or libs
  -  ImageBase this is the address where the program was designed to be load in the virtual memory. If the program has a relocation section, it can be moved somewhere else, if it will overlap with another executable loaded in the same address. 
  -  SectionAlignment the size og each section should be aligned to this value while loaded in the memory (generally is 0x1000) 
  - FileAlignment the size of each sections in the PE file (as well the size of headers) has to be aligned to this number. For example if the section the size is 0x1164 and the file alignement is 0x200 the section will be changed to 0x1200 on the hard disk.
+
+ + ## Data Section
+ 
+ ![alt text]( https://i.ibb.co/7SN6B4v/data-dir.jpg)
+
  
