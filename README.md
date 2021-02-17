@@ -35,6 +35,12 @@ Windows os, structure used by microsoft to rapresents an executable file or libs
  - TimeDateStamp the exact time and date where the tool was compiled
  - Characteristics rapresents the exact type of file, program or dll or maybe sys driver.
  
+ + ## Optional header
 
+ https://i.ibb.co/6HtS0cp/5657.jpg
  
+  - Magic identifies the type of system or PE file (it's x86 or x64)
+ -  AddressOfEntryPoint very important field - point to the starting point of the program execution. 
+ -  ImageBase this is the address where the program was designed to be load in the virtual memory. If the program has a relocation section, it can be moved somewhere else, if it will overlap with another executable loaded in the same address. 
+ - Characteristics rapresents the exact type of file, program or dll or maybe sys driver.
  
