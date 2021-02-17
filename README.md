@@ -10,7 +10,7 @@ It represents a quite complete design for any exe file.
 - portable multiple processors
 
 
-# Exploring PE structure
+# why PE
 
 Windows os, structure used by microsoft to rapresents an executable file or libs in win os.
 
