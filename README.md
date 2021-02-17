@@ -36,8 +36,10 @@ Windows os, structure used by microsoft to rapresents an executable file or libs
  - Characteristics rapresents the exact type of file, program or dll or maybe sys driver.
  
  + ## Optional header
+ +
+ ![alt text]( https://i.ibb.co/6HtS0cp/5657.jpg
+)
 
- https://i.ibb.co/6HtS0cp/5657.jpg
  
   - Magic identifies the type of system or PE file (it's x86 or x64)
  -  AddressOfEntryPoint very important field - point to the starting point of the program execution. 
