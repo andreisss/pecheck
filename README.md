@@ -57,3 +57,11 @@ Windows os, structure used by microsoft to rapresents an executable file or libs
  - Resource table The packages files with the program such as icons, imgs and more. Sometimes malware hide dll or exe to load in memory. 
  - Relocation table It's used to fix addresses in the code when the PE file is loaded to another place in memory.
  - TLS table could be used to bypass debugger. 
+
++ ## Section Table
+ - Name the name os the section
+ - VirtualAddress Pointer to the beginning of the section in memory, relatively to the start of the file. Used to be called RVA addresses.
+ - VirtualSize the size of the section in memory
+ - SizeOfRawData the size of section on HD
+ - PointerToRawData the point of section in the file on HD
+ - Characteristics mwmory protections flags
